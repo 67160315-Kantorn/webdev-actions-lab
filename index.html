@@ -7,12 +7,41 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="card">
+  <header class="hero">
+    <button id="themeBtn" class="theme-btn" aria-label="สลับธีม">🌙 Dark</button>
     <h1>My Web Development Lab — Auto Deployed 🚀</h1>
     <p>ชื่อ: กันต์ธร ใจใหญ่ | รหัสนิสิต: 67160315</p>
+    <p class="welcome">ยินดีต้อนรับสู่เว็บไซต์ของผม เว็บนี้ Deploy อัตโนมัติด้วย GitHub Actions + GitHub Pages</p>
     <p id="status">Ready to deploy</p>
     <button id="helloBtn">Say Hello</button>
+  </header>
+
+  <main class="sections">
+    <section class="card" id="about">
+      <h2>👋 About Me</h2>
+      <p>สวัสดีครับ ผมชื่อกันต์ธร เป็นนิสิตมหาวิทยาลัยบูรพา สนใจด้านการพัฒนาเว็บไซต์และการนำ AI / Computer Vision มาใช้แก้ปัญหาจริง</p>
+    </section>
+
+    <section class="card" id="skills">
+      <h2>🛠️ Skills</h2>
+      <ul class="skills">
+        <li>HTML / CSS / JavaScript</li>
+        <li>Python</li>
+        <li>Flask / FastAPI</li>
+        <li>YOLO / Computer Vision</li>
+        <li>Git &amp; GitHub Actions</li>
+        <li>Power Apps</li>
+      </ul>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>📬 Contact</h2>
+      <p>Email: <a href="mailto:67160315@go.buu.ac.th">67160315@go.buu.ac.th</a></p>
+      <p>GitHub: <a href="https://github.com/67160315-Kantorn" target="_blank" rel="noopener">67160315-Kantorn</a></p>
+    </section>
   </main>
+
+  <footer>© 2026 กันต์ธร ใจใหญ่ • Deployed with GitHub Actions</footer>
   <script src="script.js"></script>
 </body>
 </html>
